@@ -1,6 +1,8 @@
 body {
   font-family: inter;
   background-color: #1A0B2E;
+  color: white;
+  margin: 0;
 }
 
 .navbox {
@@ -12,7 +14,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 16px 200;
-  margin: 0;
+  margin: 30px 0;
 }
 
 .logo a {
@@ -49,6 +51,7 @@ body {
 }
 
 .btn {
+  text-decoration: none;
   color: white;
   font-size: 1rem;
   font-weight: 500;
@@ -60,3 +63,63 @@ body {
       #9100F8 100%);
 }
 
+
+.banner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.micro-phone {
+  padding: 120px;
+  background-image: url(./assets/hero-circle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+}
+
+.new {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400;
+  background-color: #00FF88;
+  padding: 8px 16px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 280px;
+}
+
+.title h1 {
+  font-size: 3.8rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.title p {
+  opacity: 80%;
+  margin-bottom: 30px;
+}
+
+.hero-sub {
+  text-decoration: none;
+  color: #00FF88;
+  padding: 12px 20px;
+  border: solid 1px #00FF88;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-left: 5px;
+}
