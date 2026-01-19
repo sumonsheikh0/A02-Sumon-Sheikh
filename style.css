@@ -74,6 +74,7 @@ body {
   background-image: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
+  border-top: 1px solid #412567;
 }
 
 .container {
@@ -107,6 +108,7 @@ body {
   font-size: 3.8rem;
   font-weight: 900;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .title p {
@@ -123,3 +125,48 @@ body {
   border-radius: 20px;
   margin-left: 5px;
 }
+
+.about{
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 200px 120px 200px;
+
+ 
+}
+
+.about-text h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0px auto;
+  
+}
+.about-text p{
+  max-width: 900px;
+  line-height: 20px;
+  margin: 0 auto;
+  opacity: 80%;
+  margin-top: 30px;
+
+}
+.info-box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  border-top: 1px solid #412567;
+  padding-top: 80px;
+  align-items: center;
+}
+
+.info span{
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.info p{
+  text-transform: uppercase;
+  opacity: 80%;
+}
+
