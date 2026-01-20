@@ -175,6 +175,7 @@ body {
   padding: 120px 200px;
   margin: 0 auto;
   background-color: #230E3D;
+  
 
 }
 .choose-section h2{
@@ -229,4 +230,59 @@ body {
 
 .wide {
   grid-column: span 2;
+}
+
+.featured {
+  padding: 200px 120px;
+  gap: 40px;
+  margin-top: 2px;
+}
+.featured h2{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 40px;
+}
+
+
+.video-card {
+  max-width: 380px;
+  max-height: 500px;
+  background-color: #250D44;
+  border-radius: 20px;
+
+}
+
+.ytvideo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.ytvideo iframe{
+  width: 100%;
+  height: 214px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.video-text {
+  padding: 24px;
+  margin: 0 auto;
+}
+.video-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.video-text p {
+  opacity: 60%;
+}
+
+.video-text span{
+  color: #00FF88;
 }
