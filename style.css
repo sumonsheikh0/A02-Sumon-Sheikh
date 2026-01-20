@@ -3,17 +3,24 @@ body {
   background-color: #1A0B2E;
   color: white;
   margin: 0;
+  
+
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbox {
   max-height: 92px;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 30px 200px;
   margin: 0 auto;
-  gap: 200px;
+  
 }
 
 .logo a {
@@ -404,9 +411,6 @@ body {
 /* responsive for small device\\ */
 @media (max-width: 576px) {
 
-  body {
-    overflow-x: hidden;
-  }
 
   /* navber responsive */
   .navbox {
@@ -416,6 +420,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    
   }
 
   .logo a {
@@ -717,6 +722,15 @@ body {
 
 
 
+  .navbox,
+  .about,
+  .choose-section,
+  .featured,
+  .host,
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 
 
