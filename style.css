@@ -361,3 +361,38 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.footer{
+  background: url(./assets/footer-bg.png) no-repeat;
+  background-position: center;
+  max-height: 100vh;
+  padding: 120px;
+  margin: 0 auto;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socail-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.so-btn {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  
+}
+
+.so-icon{
+  color: white;
+}
+.copyright{
+  opacity: 60%;
+}
